@@ -27,6 +27,7 @@ const AboutUs = () => {
               </h2>
             </div>
           </div>
+
         </div>
         <div className="relative h-full w-full md:h-full bg-black opacity-90 ">
           <Image
@@ -80,6 +81,7 @@ const AboutUs = () => {
             our customers comfortable in overseas business.
           </h2>
         </div>
+
 
         <div className="mx-2 my-4">
           <h2 className="text-black text-left font-semibold">
