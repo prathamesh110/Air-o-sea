@@ -3,7 +3,7 @@ import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import splash from "../assets/splash.jpg"
 import splash2 from "../assets/splash2.jpg"
-import logo from "../assets/logo.png"
+
 import Navbar from '../components/Navbar'
 
 const Caraousal = () => {
@@ -20,19 +20,8 @@ const Caraousal = () => {
         alt=""
         className=" z-0 absolute w-[full] h-[40rem] opacity-70 object-cover md:hidden"
       />
-      <div className="m-4 z-20 w-full  absolute md:flex">
-        <div className="md:ml-10">
-          <Image
-            src={logo}
-            alt=""
-            className="min-w-[5rem] w-[20rem]  md:w-[25rem] md:min-w-[10rem]"
-          />
-        </div>
-        <div className="hidden md:hidden lg:w-3/6 lg:flex lg:justify-end xl:w-4/6">
-          <Navbar />
-        </div>
-      </div>
-      <div className="flex z-20 flex-col m-4 mt-[10rem] sm:w-5/6 md:mt-[12rem] absolute  md:grid md:grid-cols-5 lg:w-5/6">
+      <Navbar />
+      <div className="flex z-20 flex-col m-4 mt-[10rem] sm:w-5/6 md:mt-[18rem] absolute  md:grid md:grid-cols-5 lg:w-5/6">
         <div className="md:ml-12 md:col-span-3">
           <h1 className="text-white text-2xl font-bold  md:text-[2.5rem] md:leading-[3rem]">
             Are you looking to import or shop contemporary furniture from china
@@ -46,7 +35,7 @@ const Caraousal = () => {
             just fill up the below form and our experts will get in touch with
             you and help you on getting your products at your door step.
           </h2>
-          <div className="bg-blue-900 px-6 py-2 absolute mt-8 cursor-pointer  rounded-md">
+          <div className="bg-green-500 px-6 py-2 absolute mt-8 cursor-pointer  rounded-md">
             <h2 className="text-white text-md">Contact Us</h2>
           </div>
         </div>
