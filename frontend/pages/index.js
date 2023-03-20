@@ -3,6 +3,8 @@ import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import Caraousal from '../components/Caraousal';
 import AboutUs from '../components/AboutUs';
+import Services from '../components/Services';
+import WhyUs from '../components/WhyUs';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -17,7 +19,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Caraousal />
-      <AboutUs />      
+      <AboutUs />
+      <Services /> 
+      <WhyUs />   
     </>
   );
 }

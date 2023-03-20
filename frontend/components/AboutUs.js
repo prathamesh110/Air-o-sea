@@ -6,23 +6,23 @@ import icon3 from "../assets/AboutUs/icon3.png"
 
 const AboutUs = () => {
   return (
-    <div className="relative h-[43rem] grid grid-rows-3 md:grid-cols-3 md:grid-rows-1">
+    <div className="relative xl:h-[43rem] grid grid-rows-4 md:grid-cols-3 md:grid-rows-1">
       <div className="h-[15rem] w-full md:h-full">
         <div className="relative z-10 flex justify-center">
           <div className="absolute grid grid-cols-3 gap-12 my-10 md:gap-32 md:grid-rows-3 md:grid-cols-1">
             <div className="flex justify-center items-center flex-col">
               <Image src={icon3} alt="" />
-              <h2 className="text-center mt-3">EPC</h2>
+              <h2 className="text-center mt-3 text-base md:text-lg">EPC</h2>
             </div>
 
             <div className="flex justify-center items-center flex-col">
               <Image src={icon1} alt="" />
-              <h2 className="text-center mt-3">Import & Export Services</h2>
+              <h2 className="text-center mt-3  text-base md:text-lg">Import & Export Services</h2>
             </div>
 
             <div className="flex justify-center items-center flex-col">
               <Image src={icon2} alt="" />
-              <h2 className="text-center mt-3">
+              <h2 className="text-center mt-3 text-base md:text-lg">
                 International Joint Venture projects
               </h2>
             </div>
@@ -37,40 +37,40 @@ const AboutUs = () => {
           />
         </div>
       </div>
-      <div className="row-span-2 md:col-span-2 px-6 md:px-8 relative md:w-5/6">
-        <div className="flex justify-start items-center mt-16">
+      <div className="row-span-3 md:col-span-2 px-6 md:px-8 relative md:w-5/6">
+        <div className="flex justify-start items-center md:mt-6">
           <div className=" border-x-[2rem] border-y-[0.1rem] border-green-500">
             <h1 className="hidden">-</h1>
           </div>
-          <h2 className="text-green-500 ml-4 text-xl font-bold">About us</h2>
+          <h2 className="text-green-500 ml-4 text-lg font-bold">About us</h2>
         </div>
         <div className="mt-8 ml-2 flex justify-start items-center">
           <div>
-            <div className="grid grid-cols-3 w-16 ">
-              <div className=" w-3 h-3 rounded-full bg-black"></div>
-              <div className=" w-3 h-3 rounded-full bg-green-500"></div>
-              <div className=" w-3 h-3 rounded-full bg-black"></div>
+            <div className="flex justify-between w-12">
+              <div className=" w-[0.6rem] h-[0.6rem] rounded-full bg-black"></div>
+              <div className=" w-[0.6rem] h-[0.6rem] rounded-full bg-green-500"></div>
+              <div className=" w-[0.6rem] h-[0.6rem] rounded-full bg-black"></div>
             </div>
 
-            <div className="grid grid-cols-3 w-16  mt-2">
-              <div className=" w-3 h-3 rounded-full bg-white"></div>
-              <div className=" w-3 h-3 rounded-full bg-black"></div>
-              <div className=" w-3 h-3 rounded-full bg-black"></div>
+            <div className="flex justify-between w-12  mt-[0.3rem]">
+              <div className=" w-[0.6rem] h-[0.6rem] rounded-full bg-white"></div>
+              <div className=" w-[0.6rem] h-[0.6rem] rounded-full bg-black"></div>
+              <div className=" w-[0.6rem] h-[0.6rem] rounded-full bg-black"></div>
             </div>
 
-            <div className="grid grid-cols-3 w-16  mt-2">
-              <div className=" w-3 h-3 rounded-full bg-white"></div>
-              <div className=" w-3 h-3 rounded-full bg-white"></div>
-              <div className=" w-3 h-3 rounded-full bg-green-500"></div>
+            <div className="flex justify-between w-12 mt-[0.3rem]">
+              <div className=" w-[0.6rem] h-[0.6rem] rounded-full bg-white"></div>
+              <div className=" w-[0.6rem] h-[0.6rem] rounded-full bg-white"></div>
+              <div className=" w-[0.6rem] h-[0.6rem] rounded-full bg-green-500"></div>
             </div>
           </div>
           <div className="ml-4">
-            <h1 className="text-black">
+            <h1 className="text-black text-xl md:text-2xl">
               Welcome To Airosea International Ltd.
             </h1>
           </div>
         </div>
-        <div className="my-6 mx-2">
+        <div className="my-4 mx-2 overflow-y-auto">
           <h2 className="text-black text-left font-semibold">
             Air O Sea International Ltd. is a disciplined multinational, dynamic
             organization with High Value and Integrity. We are strong bridge
@@ -81,7 +81,7 @@ const AboutUs = () => {
           </h2>
         </div>
 
-        <div className="mx-2">
+        <div className="mx-2 my-4">
           <h2 className="text-black text-left font-semibold">
             Our core services includes and not limited to Trading , Import –
             Export, End to End Project Management, Business Consulting. We are
@@ -103,6 +103,10 @@ const AboutUs = () => {
             customers. It’s our commitment to assist our customers in their
             organization’s growth.
           </h2>
+        </div>
+
+        <div className="bg-green-500 rounded-md w-2/6 xl:w-1/6 lg:w-1/6 flex justify-center items-center mt-4 py-2 ml-2">
+          <h2>Know More</h2>
         </div>
       </div>
     </div>
