@@ -9,18 +9,14 @@ import { MdLanguage } from 'react-icons/md';
 
 const WhyUs = () => {
   return (
-    <div className="grid grid-rows-2 md:grid-cols-2 md:grid-rows-1 xl:h-[43rem]  mt-10">
+    <div className="grid grid-rows-3 md:grid-cols-2 md:grid-rows-1 xl:h-[43rem]  mt-10">
       <div className="flex relative z-10 overflow-hidden">
-        {/* <div className='hidden md:flex'>
-            <Image src={splash} alt="" className=" " />
-        </div> */}
-        <div className="z-20 relative overflow-hidden">
-          <div className="relative">
-            <Image src={splash2} alt="" className="" />
-          </div>
+        <div className="relative w-[50rem]">
+          <Image src={splash2} alt="" className="" />
         </div>
+        
       </div>
-      <div className=" text-center flex  items-center flex-col">
+      <div className="row-span-2 md:row-span-1 text-center flex  items-center flex-col mt-4">
         <div className="w-3/4 md:px-10">
           <h2 className="text-3xl md:text-4xl font-bold  md:mt-6 text-black">
             Why Should You business with Us?

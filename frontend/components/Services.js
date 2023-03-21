@@ -23,15 +23,20 @@ const Services = () => {
             <div className="relative z-0">
               <div className="flex absolute z-20 bottom-0">
                 <div className="bg-white ">
-                  <div className="w-32 h-32 flex justify-center items-center">
-                    <IoIosAirplane className="w-16 h-16 text-green-500" />
+                  <div className="w-20 h-20 md:w-32 md:h-32 flex justify-center items-center">
+                    <IoIosAirplane className="w-10 h-10 md:w-16 md:h-16 text-green-500" />
                   </div>
                 </div>
                 <div
                   class="w-0 h-0 
-                    border-t-[128px] border-t-transparent
-                    border-l-[60px] border-l-white
-                    border-b-[0px] border-b-transparent"
+                  md:border-t-[128px] md:border-t-transparent
+                  md:border-l-[60px] md:border-l-white
+                  md:border-b-[0px] md:border-b-transparent 
+
+
+                  border-t-[100px] border-t-transparent
+                  border-l-[50px] border-l-white
+                  border-b-[0px] border-b-transparent"
                 ></div>
               </div>
               <Image src={splash} alt="" />
@@ -44,7 +49,7 @@ const Services = () => {
                 ever since the 1500s, when an unknown printer took a galley of
                 type and scrambled it to make a type specimen book.
               </h2>
-              <div className="bg-green-500 rounded-md w-2/6   flex justify-center items-center mt-4 py-2">
+              <div className="bg-green-500 rounded-md md:w-2/6   flex justify-center items-center mt-4 py-2">
                 <h2>Know More</h2>
               </div>
             </div>
@@ -54,15 +59,20 @@ const Services = () => {
             <div className="relative z-0">
               <div className="flex absolute z-20 bottom-0">
                 <div className="bg-white ">
-                  <div className="w-32 h-32 flex justify-center items-center">
-                    <IoIosAirplane className="w-16 h-16 text-green-500" />
+                  <div className="w-20 h-20 md:w-32 md:h-32 flex justify-center items-center">
+                    <IoIosAirplane className="w-10 h-10 md:w-16 md:h-16 text-green-500" />
                   </div>
                 </div>
                 <div
                   class="w-0 h-0 
-                    border-t-[128px] border-t-transparent
-                    border-l-[60px] border-l-white
-                    border-b-[0px] border-b-transparent"
+                  md:border-t-[128px] md:border-t-transparent
+                  md:border-l-[60px] md:border-l-white
+                  md:border-b-[0px] md:border-b-transparent 
+
+
+                  border-t-[100px] border-t-transparent
+                  border-l-[50px] border-l-white
+                  border-b-[0px] border-b-transparent"
                 ></div>
               </div>
               <Image src={splash} alt="" />
@@ -75,7 +85,7 @@ const Services = () => {
                 ever since the 1500s, when an unknown printer took a galley of
                 type and scrambled it to make a type specimen book.
               </h2>
-              <div className="bg-green-500 rounded-md w-2/6  flex justify-center items-center mt-4 py-2">
+              <div className="bg-green-500 rounded-md md:w-2/6  flex justify-center items-center mt-4 py-2">
                 <h2>Know More</h2>
               </div>
             </div>
@@ -85,15 +95,25 @@ const Services = () => {
             <div className="relative z-0">
               <div className="flex absolute z-20 bottom-0">
                 <div className="bg-white ">
-                  <div className="w-32 h-32 flex justify-center items-center">
-                    <IoIosAirplane className="w-16 h-16 text-green-500" />
+                  <div className="w-24 h-24 md:w-32 md:h-32 flex justify-center items-center">
+                    <IoIosAirplane className="w-10 h-10  md:w-16 md:h-16 text-green-500" />
                   </div>
                 </div>
                 <div
                   class="w-0 h-0 
-                    border-t-[128px] border-t-transparent
-                    border-l-[60px] border-l-white
-                    border-b-[0px] border-b-transparent"
+                    md:border-t-[128px] md:border-t-transparent
+                    md:border-l-[60px] md:border-l-white
+                    md:border-b-[0px] md:border-b-transparent 
+
+
+                    border-t-[100px] border-t-transparent
+                    border-l-[50px] border-l-white
+                    border-b-[0px] border-b-transparent 
+                    
+                    
+                    
+                    
+                    "
                 ></div>
               </div>
               <Image src={splash} alt="" />
@@ -106,7 +126,7 @@ const Services = () => {
                 ever since the 1500s, when an unknown printer took a galley of
                 type and scrambled it to make a type specimen book.
               </h2>
-              <div className="bg-green-500 rounded-md w-2/6  flex justify-center items-center mt-4 py-2">
+              <div className="bg-green-500 rounded-md md:w-2/6  flex justify-center items-center mt-4 py-2">
                 <h2>Know More</h2>
               </div>
             </div>
