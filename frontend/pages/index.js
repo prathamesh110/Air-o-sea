@@ -5,6 +5,7 @@ import Caraousal from '../components/Caraousal';
 import AboutUs from '../components/AboutUs';
 import Services from '../components/Services';
 import WhyUs from '../components/WhyUs';
+import ContactUs from '../components/ContactUs';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -21,7 +22,8 @@ export default function Home() {
       <Caraousal />
       <AboutUs />
       <Services /> 
-      <WhyUs />   
+      <WhyUs />
+      <ContactUs />   
     </>
   );
 }

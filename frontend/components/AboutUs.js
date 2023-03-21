@@ -6,23 +6,23 @@ import icon3 from "../assets/AboutUs/icon3.png"
 
 const AboutUs = () => {
   return (
-    <div className="relative xl:h-[43rem] grid grid-rows-4 md:grid-cols-3 md:grid-rows-1">
-      <div className="h-[15rem] w-full md:h-full">
+    <div className="relative xl:h-[43rem] grid grid-rows-6 md:grid-cols-3 bg-slate-200 md:grid-rows-1">
+      <div className="h-[10rem] w-full md:h-full">
         <div className="relative z-10 flex justify-center">
-          <div className="absolute grid grid-cols-3 gap-12 my-10 md:gap-32 md:grid-rows-3 md:grid-cols-1">
+          <div className="absolute grid grid-cols-3 gap-12 my-5 md:my-10 md:gap-32 md:grid-rows-3 md:grid-cols-1">
             <div className="flex justify-center items-center flex-col">
-              <Image src={icon3} alt="" />
-              <h2 className="text-center mt-3 text-base md:text-lg">EPC</h2>
+              <Image src={icon3} alt="" className="w-12 md:w-14" />
+              <h2 className="text-center  mt-3 text-sm md:text-lg">EPC</h2>
             </div>
 
             <div className="flex justify-center items-center flex-col">
-              <Image src={icon1} alt="" />
-              <h2 className="text-center mt-3  text-base md:text-lg">Import & Export Services</h2>
+              <Image src={icon1} alt="" className="w-12 md:w-14" />
+              <h2 className="text-center mt-3  text-sm md:text-lg">Import & Export Services</h2>
             </div>
 
             <div className="flex justify-center items-center flex-col">
-              <Image src={icon2} alt="" />
-              <h2 className="text-center mt-3 text-base md:text-lg">
+              <Image src={icon2} alt="" className="w-12 md:w-14" />
+              <h2 className="text-center mt-3 text-sm md:text-lg">
                 International Joint Venture projects
               </h2>
             </div>
@@ -38,7 +38,7 @@ const AboutUs = () => {
           />
         </div>
       </div>
-      <div className="row-span-3 md:col-span-2 px-6 md:px-8 relative md:w-5/6">
+      <div className="row-span-5 md:col-span-2 px-6 md:px-8 relative md:w-5/6">
         <div className="flex justify-start items-center md:mt-6">
           <div className=" border-x-[2rem] border-y-[0.1rem] border-green-500">
             <h1 className="hidden">-</h1>
@@ -54,14 +54,14 @@ const AboutUs = () => {
             </div>
 
             <div className="flex justify-between w-12  mt-[0.3rem]">
-              <div className=" w-[0.6rem] h-[0.6rem] rounded-full bg-white"></div>
+              <div className=" w-[0.6rem] h-[0.6rem] rounded-full bg-slate-200"></div>
               <div className=" w-[0.6rem] h-[0.6rem] rounded-full bg-black"></div>
               <div className=" w-[0.6rem] h-[0.6rem] rounded-full bg-black"></div>
             </div>
 
             <div className="flex justify-between w-12 mt-[0.3rem]">
-              <div className=" w-[0.6rem] h-[0.6rem] rounded-full bg-white"></div>
-              <div className=" w-[0.6rem] h-[0.6rem] rounded-full bg-white"></div>
+              <div className=" w-[0.6rem] h-[0.6rem] rounded-full bg-slate-200"></div>
+              <div className=" w-[0.6rem] h-[0.6rem] rounded-full bg-slate-200"></div>
               <div className=" w-[0.6rem] h-[0.6rem] rounded-full bg-green-500"></div>
             </div>
           </div>
@@ -107,7 +107,7 @@ const AboutUs = () => {
           </h2>
         </div>
 
-        <div className="bg-green-500 rounded-md w-2/6 xl:w-1/6 lg:w-1/6 flex justify-center items-center mt-4 py-2 ml-2">
+        <div className="bg-green-500 rounded-md w-2/6 xl:w-1/6 lg:w-1/6 flex justify-center items-center mt-4 py-2  ml-2 my-4 md:my-2">
           <h2>Know More</h2>
         </div>
       </div>

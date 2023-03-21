@@ -14,16 +14,16 @@ const Services = () => {
           Why Choose Us?
         </h2>
       </div>
-      <h2 className="text-3xl md:text-4xl font-bold mt-5 md:mt-6 text-black">
+      <h2 className="text-3xl px-[6px] text-center md:text-4xl font-bold mt-5 md:mt-6 text-black">
         We Provides Best Services
       </h2>
       <div className="w-4/6 md:w-5/6 flex justify-center mt-12">
         <div className="grid grid-rows-3 gap-10 md:grid-cols-3 md:grid-rows-1 ">
           <div>
-            <div className="relative z-0">
+            <div className="relative w-96 z-0">
               <div className="flex absolute z-20 bottom-0">
                 <div className="bg-white ">
-                  <div className="w-20 h-20 md:w-32 md:h-32 flex justify-center items-center">
+                  <div className="w-24 h-24 md:w-32 md:h-32 flex justify-center items-center">
                     <IoIosAirplane className="w-10 h-10 md:w-16 md:h-16 text-green-500" />
                   </div>
                 </div>
@@ -59,7 +59,7 @@ const Services = () => {
             <div className="relative z-0">
               <div className="flex absolute z-20 bottom-0">
                 <div className="bg-white ">
-                  <div className="w-20 h-20 md:w-32 md:h-32 flex justify-center items-center">
+                  <div className="w-24 h-24 md:w-32 md:h-32 flex justify-center items-center">
                     <IoIosAirplane className="w-10 h-10 md:w-16 md:h-16 text-green-500" />
                   </div>
                 </div>

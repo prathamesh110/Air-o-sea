@@ -27,15 +27,15 @@ const Caraousal = () => {
             Are you looking to import or shop contemporary furniture from china
             to India?
           </h1>
-          <h2 className=" mt-8 text-base md:text-lg">
+          <h2 className=" mt-8 text-base md:text-lg text-gray-300">
             We can help you at each and every step of your logistic
             requirements.
           </h2>
-          <h2 className="text-base md:text-lg">
+          <h2 className="text-base md:text-lg text-gray-300">
             just fill up the below form and our experts will get in touch with
             you and help you on getting your products at your door step.
           </h2>
-          <div className="bg-green-500 px-6 py-2 absolute mt-8 cursor-pointer  rounded-md">
+          <div className=" bg-green-500 px-6 py-2 absolute mt-8 cursor-pointer  rounded-md">
             <h2 className="text-white text-md">Contact Us</h2>
           </div>
         </div>
