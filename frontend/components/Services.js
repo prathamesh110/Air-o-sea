@@ -20,7 +20,7 @@ const Services = () => {
       <div className="w-4/6 md:w-5/6 flex justify-center mt-12">
         <div className="grid grid-rows-3 gap-10 md:grid-cols-3 md:grid-rows-1 ">
           <div>
-            <div className="relative w-96 z-0">
+            <div className="relative w-96 px-2 z-0">
               <div className="flex absolute z-20 bottom-0">
                 <div className="bg-white ">
                   <div className="w-24 h-24 md:w-32 md:h-32 flex justify-center items-center">
@@ -41,7 +41,7 @@ const Services = () => {
               </div>
               <Image src={splash} alt="" />
             </div>
-            <div className="mt-8">
+            <div className="mt-8 px-2">
               <h1 className="text-black text-3xl">Logistic Service</h1>
               <h2 className="text-gray-500 text-base mt-4 line-clamp-4">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -56,7 +56,7 @@ const Services = () => {
           </div>
 
           <div>
-            <div className="relative z-0">
+            <div className="relative px-2 z-0">
               <div className="flex absolute z-20 bottom-0">
                 <div className="bg-white ">
                   <div className="w-24 h-24 md:w-32 md:h-32 flex justify-center items-center">
@@ -77,7 +77,7 @@ const Services = () => {
               </div>
               <Image src={splash} alt="" />
             </div>
-            <div className="mt-8">
+            <div className="mt-8 px-2">
               <h1 className="text-black text-3xl">Logistic Service</h1>
               <h2 className="text-gray-500 text-base mt-4 line-clamp-4">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -92,7 +92,7 @@ const Services = () => {
           </div>
 
           <div>
-            <div className="relative z-0">
+            <div className="relative px-2 z-0">
               <div className="flex absolute z-20 bottom-0">
                 <div className="bg-white ">
                   <div className="w-24 h-24 md:w-32 md:h-32 flex justify-center items-center">
@@ -118,7 +118,7 @@ const Services = () => {
               </div>
               <Image src={splash} alt="" />
             </div>
-            <div className="mt-8">
+            <div className="mt-8 px-2">
               <h1 className="text-black text-3xl">Logistic Service</h1>
               <h2 className="text-gray-500 text-base mt-4 line-clamp-4">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
